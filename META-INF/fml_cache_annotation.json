@@ -1,0 +1,56 @@
+{
+  "com/theundertaker11/enchgapplefinder/ChestDetection": {
+    "name": "com/theundertaker11/enchgapplefinder/ChestDetection",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventBusSubscriber;",
+        "target": "com/theundertaker11/enchgapplefinder/ChestDetection"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/eventhandler/SubscribeEvent;",
+        "target": "WorldTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V"
+      }
+    ]
+  },
+  "com/theundertaker11/enchgapplefinder/EnchGAppleFinder": {
+    "name": "com/theundertaker11/enchgapplefinder/EnchGAppleFinder",
+    "annotations": [
+      {
+        "type": "CLASS",
+        "name": "Lnet/minecraftforge/fml/common/Mod;",
+        "target": "com/theundertaker11/enchgapplefinder/EnchGAppleFinder",
+        "values": {
+          "acceptedMinecraftVersions": {
+            "value": "[1.12.2]"
+          },
+          "modid": {
+            "value": "enchgapplefinder"
+          },
+          "name": {
+            "value": "Enchanted Gold Apple Finder"
+          },
+          "version": {
+            "value": "1.0"
+          }
+        }
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "preInit(Lnet/minecraftforge/fml/common/event/FMLPreInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "init(Lnet/minecraftforge/fml/common/event/FMLInitializationEvent;)V"
+      },
+      {
+        "type": "METHOD",
+        "name": "Lnet/minecraftforge/fml/common/Mod$EventHandler;",
+        "target": "postInit(Lnet/minecraftforge/fml/common/event/FMLPostInitializationEvent;)V"
+      }
+    ]
+  }
+}
